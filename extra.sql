@@ -6,3 +6,6 @@ SELECT email, role as dreamjob, subjectname as major FROM
 		ON student.email = studies.email) a
 	JOIN
 	job ON job.jobid=dreamjob;
+
+CREATE VIEW majordreamcount AS
+SELECT major, dreamjob, count(dreamjob) from majordream group by major, dreamjob;
