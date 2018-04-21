@@ -16,7 +16,7 @@ CREATE TABLE student(
 	email varchar(255) CHECK (email like '%_@_%._%') PRIMARY KEY,
 	gpa decimal(3, 2),
 	dreamJob integer references job(jobid),
-	CHECK (length(email) > length(lastname) + length(firstname)) -- we want school emails, which will be a combination of first and lastname-- 	
+--	CHECK (length(email) > length(lastname) + length(firstname)) -- -- we want school emails, which will be a combination of first and lastname-- 	
 );
 
 CREATE TABLE hobby(
