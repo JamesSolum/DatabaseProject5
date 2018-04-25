@@ -3,7 +3,7 @@ Insert some tuples into our database.  This data is not necessarily real, but it
 */
 
 -- job --
-INSERT INTO job (role, salary, industry) VALUES ('software engineer', '90000', 'technology'), ('professor', '70000', 'education'), ('intern', '30000', 'information technology'), ('videographer', '20000', 'film'), ('architect', '110000', 'construction'), ('worse job ever', '1', 'worst');
+INSERT INTO job (role, salary, industry) VALUES ('software engineer', '90000', 'technology'), ('professor', '70000', 'education'), ('intern', '30000', 'information technology'), ('videographer', '20000', 'film'), ('architect', '110000', 'construction'), ('worst job ever', '1', 'worst');
 
 -- student --
 INSERT INTO student VALUES ('James', 'Solum', 'M', 'jsolum@westmont.edu', '3.8', 1), ('Jacob', 'Ochs', 'M', 'jochs@westmont.edu', '4.0', 1), ('Caleb', 'Armacost', 'M', 'carmacost@westmont.edu', '3.9', 3), ('Natelli', 'Cripe', 'F', 'ncripe@westmont.edu', '4.3', 4), ('Jason', 'Watts', 'M', 'jwatts@westmont.edu', '2.3', 5), ('Cooper', 'Sheard', 'M', 'csheard@westmont.edu', 3.2, 2);
